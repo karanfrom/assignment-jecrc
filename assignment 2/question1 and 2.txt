@@ -1,0 +1,21 @@
+Q1 what is github? write a simple definition of github?
+
+ANS:-GitHub is a developer platform that allows developers to create, store, manage and share their code.
+It uses Git software, providing the distributed version control of Git plus access control, bug tracking,
+software feature requests, task management, continuous integration etc
+
+Q2 How can you clone a GitHub repository to your local machine? Provide the
+command and explain each part of it.
+
+ANS:-Certainly! Cloning a GitHub repository to your local machine is a common task, especially when you want to work on the code locally.
+Here's the command and an explanation of each part:
+
+1.) Git clone: This is the command you use to clone a repository in Git. It tells Git that you want to create a copy of the repository on your local machine.
+
+2.) <repository_URL>: This is the URL of the repository you want to clone. You can find this URL on the GitHub repository's page.
+It typically looks like https://github.com/username/repository.git. This URL tells Git where to find the repository online.
+
+When you run this command, Git will create a directory with the same name as the repository (unless you specify a different name), 
+download all of the files and commit history from the repository, and set up a connection to the original repository called origin. 
+This allows you to pull in changes from the original repository and push your changes back to it if you have permission.
+
